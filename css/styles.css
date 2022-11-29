@@ -54,15 +54,16 @@ body {
   margin-left: 348px;
   text-align: center;
   position: absolute;
-  width: 261px;
-  height: 24px;
 }
 
 .navigation > li {
   display: inline-block;
   text-align: center;
-  width: 66px;
-  height: 24px;
+  margin-right: 40px;
+}
+
+.navigation-last-item {
+  margin-right: 0;
 }
 
 .navigation > li > a {
