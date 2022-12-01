@@ -23,7 +23,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header > a {
+.header-logo {
   position: absolute;
   font-family: "Raleway";
   font-weight: 800;
@@ -36,7 +36,7 @@ body {
   text-transform: uppercase;
 }
 
-.header > a > span {
+.header-logopart {
   margin-top: 24px;
   width: 71px;
   height: 24px;
@@ -49,7 +49,7 @@ body {
   color: var(--navyblue);
 }
 
-.navigation {
+.header-navigation {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-left: 348px;
@@ -57,17 +57,17 @@ body {
   position: absolute;
 }
 
-.navigation > li {
+.header-navigation-item {
   display: inline-block;
   text-align: center;
   margin-right: 40px;
 }
 
-.navigation-last-item {
+.header-navigation-last-item {
   margin-right: 0;
 }
 
-.navigation > li > a {
+.header-navigation-page {
   font-weight: 600;
 
   text-decoration: none;
@@ -77,18 +77,18 @@ body {
   color: var(--navyblue);
 }
 
-.navigation > li > a:hover {
+.header-navigation-page:hover {
   color: #4d5ae5;
 }
 
-.contacts {
+.header-contacts {
   margin-top: 24px;
   margin-bottom: 24px;
   text-align: right;
   margin-right: 156px;
 }
 
-.contacts > a {
+.header-contacts-item {
   height: 24px;
   margin-right: 40px;
 
@@ -99,7 +99,7 @@ body {
   color: var(--slate);
 }
 
-.contacts > a:hover {
+.header-contacts-item:hover {
   color: #4d5ae5;
 }
 
